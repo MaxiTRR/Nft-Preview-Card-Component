@@ -38,7 +38,48 @@ Another fairly simple challenge. Basically copy almost the same code that you ma
 
 
 ### Continued development
+Something with which I am not very satisfied is with the code to perform the hover effect on the image. I had to use the W3Schools Image Hover Overlay example, and yet I still don't quite understand the code I'm using, so it's something I should continue to research and practice on.
 
+```css
+.card-img{
+    margin: 20px 0 0;
+    position: relative;
+    background-color: var(--Cyan);
+    border-radius: 20px;
+}
+
+.card-img-main{
+    display: block;
+    border-radius: 15px;
+    max-width: 280px;
+    object-fit:fill;
+    opacity: 1;
+    transition: .5s ease;
+    cursor: pointer;   
+}
+
+.card-img-hover{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+   
+}
+
+.card-img:hover .card-img-main{
+    opacity: 0.3;
+}
+
+.card-img:hover .card-img-hover{
+    opacity: 1;
+}
+```
 
 ## Author
 
