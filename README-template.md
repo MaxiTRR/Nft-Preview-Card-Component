@@ -34,7 +34,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Mobile-first workflow
 
 ### What I learned
-This time it was an easy challenge, but I can say that it was precisely the first one in which I did not need to check a tutorial to solve it. For the first time I tried the "mobile first" methodology, which I will try to use from now on in future projects. Also for the first time use variables for the CSS. I also learned better how the "display:block" property works to edit some elements such as images and apply a "border-radius" without the need to use "overflow: hidden", which for some reason cut off the bottom part of the image (probably because i don't know how to apply it correctly, but for this case I think that using display: block on the image works perfectly)
+Another fairly simple challenge. Basically copy almost the same code that you made for the QR Code Component challenge, adapting it to the current challenge requirement. Many recommendations from the previous challenge were that I could summarize my html code if I didn't use a lot of wrapper tags, but I found that I couldn't get things to work the way I wanted if I did, and I feel more comfortable this way than wanting to. adding modifications I can make sure things line up right (or close to it) from the start. Something new that I was able to implement this time is to perform the hover effect on other html elements that are not just links or buttons, which turned out to be a bit complicated without using tutorials.
+
+
+### Continued development
+
 
 ## Author
 
