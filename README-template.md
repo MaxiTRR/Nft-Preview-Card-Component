@@ -10,6 +10,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
@@ -80,6 +82,10 @@ Something with which I am not very satisfied is with the code to perform the hov
     opacity: 1;
 }
 ```
+
+### Useful resources
+How to make de Image Hover Effect.
+https://www.w3schools.com/howto/howto_css_image_overlay.asp
 
 ## Author
 
